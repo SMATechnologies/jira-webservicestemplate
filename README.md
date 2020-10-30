@@ -9,16 +9,16 @@ SMA Technologies assumes no liability for damage caused by the usage of any of t
 # Prerequisites
 - OpCon V19.1
 - Web Services Connector V 20.0.3 
-- In Jira Create an API token
+- In Jira Create an API token see documentation
 - Create two new Global Properties : 
-  - [[GLPI-API-PATH]] : your GLPI API url
-  - [[GLPI-User-Token]] : User authorization API (Administration/user/username) Regenerate API Token
+  - [[Jira-url]] : your JIRA API url https://yourapp.atlassian.net/rest/api/3
+  - [[Jira-Auth]] : Value useremail:api_token (encode Base64) 
 
 # Instructions
 - Download the .json file
-- Create your Opcon job Type = Windows, Sub-type = Web Services
+- Create your Opcon job Type = Windows, Sub-type = Web Services see documentation
 - Import Template, choose your .json 
-- Select step2 in your job, check the body json, and modify it if you need (OpCon Global Properties are supported)  
+- Select step1 in your job, check the body json, and modify it if you need (OpCon Global Properties are supported)  
 
 # License
 Copyright 2019 SMA Technologies

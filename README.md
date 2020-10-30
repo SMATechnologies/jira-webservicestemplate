@@ -15,7 +15,7 @@ SMA Technologies assumes no liability for damage caused by the usage of any of t
   - [[Jira-Auth]] : Value useremail:api_token (encode Base64) 
 
 # Instructions
-- Download the .json file 
+- Download the latest release of .json file 
 - Create your Opcon job Type = Windows, Sub-type = Web Services see documentation
 - Import Template, choose your .json 
 - Select step1 in your job, check the body json, and modify it if you need (OpCon Global Properties are supported)  

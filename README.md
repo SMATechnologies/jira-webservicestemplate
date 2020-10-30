@@ -16,7 +16,7 @@ SMA Technologies assumes no liability for damage caused by the usage of any of t
 
 # Instructions
 - Download the latest [release](https://github.com/SMATechnologies/jira-webservicestemplate/releases/tag/V1.0)  of .json file 
-- Create your Opcon job Type = Windows, Sub-type = Web Services see documentation
+- Create your Opcon job Type = Windows, Sub-type = Web Services see [documentation](https://github.com/SMATechnologies/jira-webservicestemplate/blob/master/Documentation/automate%20the%20creation%20of%20a%20ticket%20with%20Notification%20Manager.docx)
 - Import Template, choose your .json 
 - Select step1 in your job, check the body json, and modify it if you need (OpCon Global Properties are supported)  
 

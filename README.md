@@ -1,5 +1,5 @@
-# Project Name
-Project description
+# JIRA Web Services Connector
+This is a template to automatically create incident tickets in JIRA with Basic auth, from OpCon
 
 # Disclaimer
 No Support and No Warranty are provided by SMA Technologies for this project and related material. The use of this project's files is on your own risk.
@@ -7,10 +7,18 @@ No Support and No Warranty are provided by SMA Technologies for this project and
 SMA Technologies assumes no liability for damage caused by the usage of any of the files offered here via this Github repository.
 
 # Prerequisites
-
+- OpCon V19.1
+- Web Services Connector V 20.0.3 
+- In Jira Create an API token
+- Create two new Global Properties : 
+  - [[GLPI-API-PATH]] : your GLPI API url
+  - [[GLPI-User-Token]] : User authorization API (Administration/user/username) Regenerate API Token
 
 # Instructions
-
+- Download the .json file
+- Create your Opcon job Type = Windows, Sub-type = Web Services
+- Import Template, choose your .json 
+- Select step2 in your job, check the body json, and modify it if you need (OpCon Global Properties are supported)  
 
 # License
 Copyright 2019 SMA Technologies

@@ -9,7 +9,7 @@ SMA Technologies assumes no liability for damage caused by the usage of any of t
 # Prerequisites
 - OpCon V19.1
 - Web Services Connector V 20.0.3 
-- In Jira Create an API token see documentation
+- In Jira Create an API token see [documentation](https://github.com/SMATechnologies/jira-webservicestemplate/blob/master/Documentation/Jira_Supplying%20basic%20auth%20headers.docx)
 - Create two new Global Properties : 
   - [[Jira-url]] : your JIRA API url https://yourapp.atlassian.net/rest/api/3
   - [[Jira-Auth]] : Value useremail:api_token (encode Base64) 
